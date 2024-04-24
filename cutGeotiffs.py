@@ -5,6 +5,7 @@
 # Clip a bunch of geotiffs to the same area
 import os
 import glob
+from osgeo import gdal
 from multiprocessing import Pool
 
 # custom function to reproject and crop
