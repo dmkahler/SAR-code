@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 # Merge multiple Geotiffs for further analysis - also included, NDWI calculation
 
-import os
 import glob
 from osgeo import gdal
 
